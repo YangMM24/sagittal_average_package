@@ -6,6 +6,7 @@ from sagittal_average.sagittal_brain import run_averages
 
 TEST_DIR = Path(__file__).parent
 
+
 def test_run_averages():
     data_input = np.zeros((20, 20), dtype=int)
     data_input[-1, :] = 1 
