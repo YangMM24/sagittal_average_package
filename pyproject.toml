@@ -6,8 +6,11 @@ build-backend = "setuptools.build_meta"
 name = "sagittal_average"
 version = "0.1.0"
 description = "A package to calculate sagittal averages"
-authors = [{ name = "Your Name", email = "your.email@example.com" }]
+authors = [{ name = "ymm", email = "yangmiaomiao24@163.com" }]
 license = { text = "MIT" }
 
 [tool.setuptools]
 packages = ["sagittal_average"]
+
+[project.scripts]
+sagittal_average_run = "sagittal_average.command:main"
